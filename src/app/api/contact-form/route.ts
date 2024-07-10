@@ -7,7 +7,7 @@ export async function POST(req: Request) {
   const client = createClient();
   const settings = await client.getSingle("settings");
   const contactEmail = 'noreply@sureclaims.com';
-  const emailPassword = settings.data.contact_email_password || 'knjdzanwwawywtoe';
+  const emailPassword = settings.data.contact_email_password;
   const emailSender = settings.data.email_sender || 'Sure Claims';
   const adminEmail = settings.data.admin_email?.toString() || 'joe@sureclaims.com';
 
