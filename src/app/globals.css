@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'poppins';
+  src: url('fonts/POPPINS-REGULAR.TTF') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'russoone';
+  src: url('fonts/RUSSOONE-REGULAR.TTF') format('truetype');
+  font-display: swap;
+}

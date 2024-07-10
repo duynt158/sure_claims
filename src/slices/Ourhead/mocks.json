@@ -1,0 +1,14 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"our_services": {
+				"__TYPE__": "FieldContent",
+				"value": "crew",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

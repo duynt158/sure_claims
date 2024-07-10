@@ -1,0 +1,40 @@
+{
+  "name": "sureclaims",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.1",
+    "@mui/material": "^5.15.1",
+    "@prismicio/client": "^7.3.1",
+    "@prismicio/next": "^1.5.0",
+    "@prismicio/react": "^2.7.3",
+    "css": "^3.0.0",
+    "next": "14.0.4",
+    "nodemailer": "^6.9.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-ga": "^3.3.1",
+    "react-google-recaptcha-v3": "^1.10.1"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.30",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "node-sass": "^9.0.0",
+    "slice-machine-ui": "^1.22.0",
+    "typescript": "^5"
+  }
+}

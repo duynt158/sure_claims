@@ -1,0 +1,59 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "FieldContent",
+				"value": "meat",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliquip est Lorem ullamco ut culpa et."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"topic",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Ut pariatur et culpa ullamco dolor duis voluptate in magna officia. Non commodo veniam adipisicing commodo ut commodo velit nostrud adipisicing non non sit. Dolor Lorem minim anim do irure eiusmod voluptate aute sit ex id adipisicing pariatur."
+									}
+								}
+							]
+						}
+					],
+					[
+						"explanation",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Id pariatur id cillum ullamco dolor est sint do ut cupidatat est culpa. Cillum aliquip eiusmod sunt ea ut enim ex nulla laborum dolore do."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

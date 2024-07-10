@@ -1,0 +1,60 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"banner",
+						{
+							"__TYPE__": "ImageContent",
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+								"width": 3456,
+								"height": 4320
+							},
+							"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+							"width": 3456,
+							"height": 4320,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"thumbnails": {}
+						}
+					],
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "master",
+							"type": "Text"
+						}
+					],
+					[
+						"content",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Magna fugiat eu exercitation excepteur incididunt ea aliqua do labore fugiat nulla ullamco ut. Incididunt cillum qui laboris qui anim cupidatat veniam commodo sit mollit dolore."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

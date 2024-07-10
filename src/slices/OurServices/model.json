@@ -1,0 +1,82 @@
+{
+  "id": "our_services",
+  "type": "SharedSlice",
+  "name": "OurServices",
+  "description": "OurServices",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "bgone": {
+          "type": "Image",
+          "config": {
+            "label": "bgone",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "bgtwo": {
+          "type": "Image",
+          "config": {
+            "label": "bgtwo",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "imgs": {
+          "type": "Image",
+          "config": {
+            "label": "imgs",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "sub_title": {
+          "type": "Text",
+          "config": {
+            "label": "sub_title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "buttonname": {
+          "type": "Text",
+          "config": {
+            "label": "buttonname",
+            "placeholder": ""
+          }
+        },
+        "btn": {
+          "type": "Link",
+          "config": {
+            "label": "Btn",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      }
+    }
+  ]
+}

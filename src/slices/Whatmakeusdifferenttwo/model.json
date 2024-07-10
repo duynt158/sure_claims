@@ -1,0 +1,59 @@
+{
+  "id": "differentcontant2",
+  "type": "SharedSlice",
+  "name": "Whatmakeusdifferenttwo",
+  "description": "Differentcontant2",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "ultitle": {
+          "type": "Text",
+          "config": {
+            "label": "ultitle",
+            "placeholder": ""
+          }
+        },
+        "ulitem": {
+          "type": "StructuredText",
+          "config": {
+            "label": "ulitem",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "img": {
+          "type": "Image",
+          "config": {
+            "label": "img",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "subtitle": {
+          "type": "Text",
+          "config": {
+            "label": "subtitle",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

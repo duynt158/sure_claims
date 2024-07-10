@@ -1,0 +1,16 @@
+{
+  "id": "contact_information",
+  "type": "SharedSlice",
+  "name": "ContactInformation",
+  "description": "ContactInformation",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

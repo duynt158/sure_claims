@@ -1,0 +1,108 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {},
+    "Google Analytics": {
+      "gtag_api_key": {
+        "type": "Text",
+        "config": {
+          "label": "gtag api key",
+          "placeholder": ""
+        }
+      },
+      "is_enabled": {
+        "type": "Boolean",
+        "config": {
+          "label": "is enabled",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      }
+    },
+    "Recaptcha": {
+      "recaptcha_public_key": {
+        "type": "Text",
+        "config": {
+          "label": "recaptcha public key",
+          "placeholder": ""
+        }
+      },
+      "recaptcha_private_key": {
+        "type": "Text",
+        "config": {
+          "label": "recaptcha private key",
+          "placeholder": ""
+        }
+      }
+    },
+    "Navigation": {
+      "slices3": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "menu_item": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Contact": {
+      "address": {
+        "type": "Text",
+        "config": {
+          "label": "address",
+          "placeholder": ""
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "email",
+          "placeholder": ""
+        }
+      },
+      "phone": {
+        "type": "Text",
+        "config": {
+          "label": "phone",
+          "placeholder": ""
+        }
+      },
+      "contact_email": {
+        "type": "Text",
+        "config": {
+          "label": "contact email",
+          "placeholder": ""
+        }
+      },
+      "contact_email_password": {
+        "type": "Text",
+        "config": {
+          "label": "contact email password",
+          "placeholder": ""
+        }
+      },
+      "email_sender": {
+        "type": "Text",
+        "config": {
+          "label": "email sender",
+          "placeholder": ""
+        }
+      },
+      "admin_email": {
+        "type": "Text",
+        "config": {
+          "label": "admin email",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

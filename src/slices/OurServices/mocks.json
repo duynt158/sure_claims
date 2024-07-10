@@ -1,0 +1,131 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"bgone": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1587840171670-8b850147754e",
+					"width": 4480,
+					"height": 4480
+				},
+				"url": "https://images.unsplash.com/photo-1587840171670-8b850147754e",
+				"width": 4480,
+				"height": 4480,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"thumbnails": {}
+			},
+			"bgtwo": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+					"width": 3168,
+					"height": 4752
+				},
+				"url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+				"width": 3168,
+				"height": 4752,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "essential",
+							"type": "Text"
+						}
+					],
+					[
+						"imgs",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1587840171670-8b850147754e",
+								"width": 4480,
+								"height": 4480
+							},
+							"url": "https://images.unsplash.com/photo-1587840171670-8b850147754e",
+							"width": 4480,
+							"height": 4480,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"btn",
+						{
+							"__TYPE__": "LinkContent",
+							"value": {
+								"__TYPE__": "ExternalLink",
+								"url": "http://google.com"
+							}
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Irure qui nisi cillum aliquip ex nulla ea aliquip voluptate et nostrud eu magna esse. Ea pariatur cillum Lorem nostrud voluptate incididunt incididunt magna aute ex nostrud."
+									}
+								}
+							]
+						}
+					],
+					[
+						"sub_title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "check",
+							"type": "Text"
+						}
+					],
+					[
+						"buttonname",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "slip",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

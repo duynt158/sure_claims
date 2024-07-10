@@ -1,0 +1,64 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"ultitle": {
+				"__TYPE__": "FieldContent",
+				"value": "aware",
+				"type": "Text"
+			},
+			"ulitem": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Qui qui quis commodo cillum non excepteur cupidatat voluptate et anim non mollit. Culpa cillum occaecat mollit laboris eiusmod nostrud reprehenderit fugiat anim."
+						}
+					}
+				]
+			},
+			"img": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055",
+					"width": 3277,
+					"height": 4092
+				},
+				"url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055",
+				"width": 3277,
+				"height": 4092,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Voluptate cillum occaecat esse ad. Irure occaecat quis laboris incididunt do enim cupidatat nostrud pariatur nisi eiusmod fugiat aliquip occaecat proident. Commodo eu Lorem commodo commodo nostrud officia sit officia incididunt irure amet dolor labore sit non."
+						}
+					}
+				]
+			},
+			"subtitle": {
+				"__TYPE__": "FieldContent",
+				"value": "throat",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

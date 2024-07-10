@@ -1,0 +1,42 @@
+{
+  "id": "page_header",
+  "type": "SharedSlice",
+  "name": "PageHeader",
+  "description": "PageHeader",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "desktop_background": {
+          "type": "Image",
+          "config": {
+            "label": "desktop background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobile_background": {
+          "type": "Image",
+          "config": {
+            "label": "mobile background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

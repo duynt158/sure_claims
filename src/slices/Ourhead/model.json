@@ -1,0 +1,26 @@
+{
+  "id": "ourhead",
+  "type": "SharedSlice",
+  "name": "Ourhead",
+  "description": "Ourhead",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "our_services": {
+          "type": "Text",
+          "config": {
+            "label": "Our Services",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

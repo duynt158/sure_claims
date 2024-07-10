@@ -1,0 +1,41 @@
+{
+  "id": "differentcontant3",
+  "type": "SharedSlice",
+  "name": "Whatmakeusdifferentthree",
+  "description": "Differentcontant3",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "img": {
+          "type": "Image",
+          "config": {
+            "label": "img",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "sub_title": {
+          "type": "Text",
+          "config": {
+            "label": "sub_title",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

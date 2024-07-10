@@ -1,0 +1,54 @@
+{
+  "id": "make_us_different",
+  "type": "SharedSlice",
+  "name": "MakeUsDifferent",
+  "description": "MakeUsDifferent",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "topic": {
+          "type": "StructuredText",
+          "config": {
+            "label": "topic",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "explanation": {
+          "type": "StructuredText",
+          "config": {
+            "label": "explanation",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        }
+      }
+    }
+  ]
+}

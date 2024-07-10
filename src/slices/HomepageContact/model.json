@@ -1,0 +1,101 @@
+{
+  "id": "homepage_contact",
+  "type": "SharedSlice",
+  "name": "HomepageContact",
+  "description": "HomepageContact",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title_green": {
+          "type": "Text",
+          "config": {
+            "label": "title green",
+            "placeholder": ""
+          }
+        },
+        "title_white_1": {
+          "type": "Text",
+          "config": {
+            "label": "title white 1",
+            "placeholder": ""
+          }
+        },
+        "title_yellow": {
+          "type": "Text",
+          "config": {
+            "label": "title yellow",
+            "placeholder": ""
+          }
+        },
+        "title_white_2": {
+          "type": "Text",
+          "config": {
+            "label": "title white 2",
+            "placeholder": ""
+          }
+        },
+        "title_white_3": {
+          "type": "Text",
+          "config": {
+            "label": "title white 3",
+            "placeholder": ""
+          }
+        },
+        "button_text": {
+          "type": "Text",
+          "config": {
+            "label": "button text",
+            "placeholder": ""
+          }
+        },
+        "form_title": {
+          "type": "Text",
+          "config": {
+            "label": "form title",
+            "placeholder": ""
+          }
+        },
+        "desktop_background": {
+          "type": "Image",
+          "config": {
+            "label": "desktop background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "mobile_background": {
+          "type": "Image",
+          "config": {
+            "label": "mobile background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "button link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
